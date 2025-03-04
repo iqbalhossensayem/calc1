@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator by meeee</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-blue-200 min-h-screen flex items-center justify-center">
+    <div class="calculator flex flex-col gap-3 border-2 p-3 w-full h-screen sm:w-fit lg:w-auto lg:container"> <!-- Added h-screen for full screen height on mobile -->
+      
+      <!-- Input field -->
+      <input
+        type="text"
+        name=""
+        id="display"
+        class="border-2 mt-32 text-end text-xl font-bold rounded-md w-full h-16 sm:h-12 flex-grow" 
+      /> <!-- Adjusted height of input on mobile -->
+      <!-- Button grid -->
+      <div class="btns grid grid-cols-4 gap-2 w-full flex-grow"> <!-- Added flex-grow to fill space on mobile -->
+        <!-- Buttons -->
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">C</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">F</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">%</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">/</button>
+
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">7</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">8</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">9</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">*</button>
+
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">4</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">5</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">6</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">-</button>
+
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">1</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">2</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">3</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">+</button>
+
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">0</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold">.</button>
+        <button class="calc-btn bg-white rounded-md p-3 shadow-lg hover:bg-gray-200 cursor-pointer text-xl font-bold col-span-2">=</button>
+      </div>
+    </div>
+  </body>
+</html>
