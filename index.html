@@ -16,21 +16,23 @@
   </head>
   <body class="bg-[#DEE1EA] min-h-screen flex items-center justify-center">
     <div
-      class="calculator flex flex-col gap-3 border-4 border-red-300 p-5 w-full h-screen sm:w-fit lg:w-auto lg:container"
+      class="calculator flex flex-col gap-3 p-2 w-full h-screen sm:w-fit lg:w-auto lg:container"
     >
       <!-- display section -->
       <input
         type="text"
         id="display"
-        class="inputt mt-8 text-end text-4xl font-bold rounded-lg w-full sm:h-12 mb-6 border-none shadow-lg flex-grow bg-gray-50 cursor-not-allowed focus:outline-none focus:ring-0"
+        class="inputt text-end text-4xl font-bold rounded-lg w-full sm:h-12 mb-6 border-none flex-grow cursor-not-allowed focus:outline-none focus:ring-0"
         value=""
         readonly
       />
 
-      <div class="btns grid grid-cols-4 gap-2 w-full flex-grow">
+      <div
+        class="btns grid grid-cols-4 gap-2 w-full border-t-4 border-t-[#c49055] pt-6 flex-grow"
+      >
         <!-- Buttons -->
         <button
-          class="calc-btn bg-[#A0ADC4] rounded-2xl p-3 shadow-lg hover:bg-[#B0B9CA] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-[#A0ADC4] rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-[#B0B9CA] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           C
         </button>
@@ -41,107 +43,107 @@
         </button> -->
 
         <button
-          class="calc-btn bg-[#A0ADC4] rounded-2xl p-3 shadow-lg hover:bg-[#B0B9CA] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-extrabold"
+          class="calc-btn bg-[#A0ADC4] rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-[#B0B9CA] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-extrabold"
         >
           ←
         </button>
         <button
-          class="calc-btn bg-[#A0ADC4] rounded-2xl p-3 shadow-lg hover:bg-[#B0B9CA] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-[#A0ADC4] rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-[#B0B9CA] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           %
         </button>
         <button
-          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
+          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
         >
           ÷
         </button>
 
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           7
         </button>
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           8
         </button>
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           9
         </button>
         <button
-          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
+          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
         >
           ×
         </button>
 
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           4
         </button>
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           5
         </button>
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           6
         </button>
         <button
-          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
+          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
         >
           -
         </button>
 
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           1
         </button>
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           2
         </button>
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           3
         </button>
         <button
-          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
+          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
         >
           +
         </button>
 
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           00
         </button>
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           0
         </button>
         <button
-          class="calc-btn bg-white rounded-2xl p-3 shadow-lg hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
+          class="calc-btn bg-white rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-gray-200 active:shadow-lg active:-translate-y-[1px] cursor-pointer text-4xl font-bold"
         >
           .
         </button>
         <button
-          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
+          class="calc-btn bg-[#DF8419] rounded-2xl p-3 shadow-lg drop-shadow-xl hover:bg-[#D97C19] active:shadow-lg active:-translate-y-[1px] cursor-pointer text-white text-4xl font-bold"
         >
           =
         </button>
       </div>
     </div>
-
+    
     <script src="app.js"></script>
   </body>
 </html>
